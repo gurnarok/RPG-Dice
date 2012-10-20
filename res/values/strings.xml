@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">RPG Dice Set</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RPG Dice Set</string>
+    <string-array name="dice_array">
+        <item>D4</item>
+        <item>D6</item>
+        <item>D8</item>
+        <item>D10</item>
+        <item>D12</item>
+        <item>D20</item>
+        <item>D100</item>
+    </string-array>
+	<string name="roll_btn">Roll the dice!</string>
+	<string name="dices_ammount">1</string>
+	<string name="history_lbl">Roll history</string>
+</resources>
