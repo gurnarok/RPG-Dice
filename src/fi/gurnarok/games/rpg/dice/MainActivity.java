@@ -85,14 +85,15 @@ public class MainActivity extends Activity {
 				}
 				
 				String results = roll_result.getText().toString();
+				
 				String msg = "";
 				if(rolls>1)
 				{
-					msg = "You rolled "+rolls+" "+max+" sided dices, the sum was "+res;
+					msg = rolls+"d"+max+" = "+res;
 				}
 				else
 				{
-					msg = "You rolled a "+max+" sided dice, result is "+res;
+					msg = "d"+max+" = "+res;
 				}
 				
 				results = msg+"\n"+results;

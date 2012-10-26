@@ -21,7 +21,8 @@
         android:layout_toLeftOf="@+id/roll_btn"
         android:ems="10"
         android:inputType="numberSigned"
-        android:text="@string/dices_ammount" >
+        android:text="@string/dices_ammount"
+        android:maxLength="3" >
 
         <requestFocus />
     </EditText>
